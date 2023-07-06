@@ -18,7 +18,7 @@ function App() {
           marginRight: "10px",
           color: "#800080"
         }}
-          href="https://docs.google.com/forms/d/e/1FAIpQLSdeSL-e0WkosQo2GSwFZodoN5I2hN5OUXsd4M7zZe8Y6gA9OA/viewform?pli=1"
+          href={process.env.REACT_APP_RK_GLOWROAD}
           target="_blank"
         >
           Form
@@ -40,7 +40,7 @@ function App() {
           color: "#800080",
           marginLeft: "5px"
         }}
-          href="https://docs.google.com/forms/d/e/1FAIpQLSfqwTVcPrqp2OOIzwuOUeQ-GLxdUIbM1FADVoMdrJW8arGfEA/viewform"
+          href={process.env.REACT_APP_RK_CITYMALL}
           target="_blank">
           Form
         </Button>
@@ -60,7 +60,7 @@ function App() {
           color: "#800080",
           marginLeft: "15px"
         }}
-          href="https://docs.google.com/forms/d/e/1FAIpQLSfiM13GMmMEVecq8Xxlh7TOpbZbFVMOo3U12ACt_Ah5uKifWw/viewform"
+          href={process.env.REACT_APP_SHREEJI_FLIPKART}
           target="_blank">
           Form
         </Button>
@@ -78,7 +78,7 @@ function App() {
           marginRight: "10px",
           color: "#800080"
         }}
-          href="https://docs.google.com/forms/d/e/1FAIpQLSekuP_rUJpN403YQ4b58olxqQwxSb6TuzXlI83xdsB2OCj8LQ/viewform"
+          href={process.env.REACT_APP_SHREEJI_GLOWROAD}
           target="_blank">
           Form
         </Button>
@@ -97,7 +97,7 @@ function App() {
           color: "#800080",
           marginLeft: "25px"
         }}
-          href="https://docs.google.com/forms/d/e/1FAIpQLSdUxRDoTWYFhcH-yvb2STxUp8tgg5oEiL--b4RgMr2xRtjtuA/viewform"
+          href={process.env.REACT_APP_SHREEJI_DHANI}
           target="_blank">
           Form
         </Button>
@@ -116,7 +116,7 @@ function App() {
           color: "#800080",
           marginLeft: "5px"
         }}
-          href="https://docs.google.com/forms/d/e/1FAIpQLSecBcUec53IMP-Y-DlzkzhH0nIGSzN785Ak6rDusEsSELsxEg/viewform"
+          href={process.env.REACT_APP_SHREEJI_CITYMALL}
           target="_blank">
           Form
         </Button>
@@ -137,7 +137,7 @@ function App() {
           marginRight: "10px",
           color: "#800080"
         }}
-          href="https://docs.google.com/forms/d/e/1FAIpQLSdrakilzvDa4yhm9v6AzHcSpJ8taqYkOdVTP-w1TQAZx2X_4w/viewform"
+          href={process.env.REACT_APP_SWASTIK_GLOWROAD}
           target="_blank">
           Form
         </Button>
