@@ -1,0 +1,83 @@
+$red: #e74c3c;
+$green: #16a085;
+$blue: #2980b9;
+$yellow: #800080;
+$white: #ffffff;
+$lightgreen: #00f100;
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #2d3436;
+}
+
+h3 {
+    color: #ffffff
+}
+
+i {
+    font-size: 48p;
+    color: $lightgreen
+}
+
+.btn {
+    appearance: none;
+    margin: 0 .5em;
+    padding: 1em 2em;
+    color: white;
+    background: gray linear-gradient(hsla(0, 0%, 100%, .2), transparent);
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: .25em;
+    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+    cursor: pointer;
+    outline: 0;
+
+    &:active {
+        margin-top: 2px;
+        box-shadow: none;
+    }
+
+    &--red {
+        background-color: $red;
+
+        &:hover {
+            background-color: darken($red, 10%);
+        }
+    }
+
+    &--excel {
+        background-color: $white;
+        border: 2px solid $lightgreen;
+
+        &:hover {
+            border: 2px solid darken($lightgreen, 10%);
+
+        }
+    }
+
+    &--green {
+        background-color: $green;
+
+        &:hover {
+            background-color: darken($green, 10%);
+        }
+    }
+
+    &--blue {
+        background-color: $blue;
+
+        &:hover {
+            background-color: darken($blue, 10%);
+        }
+    }
+
+    &--yellow {
+        background-color: $yellow;
+
+        &:hover {
+            background-color: darken($yellow, 10%);
+        }
+    }
+}
