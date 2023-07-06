@@ -23,7 +23,9 @@ function App() {
         >
           Form
         </Button>
-        <Button variant="contained" color="success" endIcon={<InsertDriveFileIcon />}>
+        <Button variant="contained" color="success" endIcon={<InsertDriveFileIcon />}
+          href={process.env.REACT_APP_RK_GLOWROAD_EXCEL}
+          target="_blank">
           Excel
         </Button>
       </p>
@@ -44,7 +46,9 @@ function App() {
           target="_blank">
           Form
         </Button>
-        <Button variant="contained" color="success" endIcon={<InsertDriveFileIcon />}>
+        <Button variant="contained" color="success" endIcon={<InsertDriveFileIcon />}
+          href={process.env.REACT_APP_RK_CITYMALL_EXCEL}
+          target="_blank">
           Excel
         </Button>
       </p>
@@ -61,10 +65,13 @@ function App() {
           marginLeft: "15px"
         }}
           href={process.env.REACT_APP_SHREEJI_FLIPKART}
-          target="_blank">
+          target="_blank"
+        >
           Form
         </Button>
-        <Button variant="contained" color="success" endIcon={<InsertDriveFileIcon />}>
+        <Button variant="contained" color="success" endIcon={<InsertDriveFileIcon />}
+          href={process.env.REACT_APP_SHREEJI_FLIPKART_EXCEL}
+          target="_blank">
           Excel
         </Button>
       </p>
@@ -82,7 +89,9 @@ function App() {
           target="_blank">
           Form
         </Button>
-        <Button variant="contained" color="success" endIcon={<InsertDriveFileIcon />}>
+        <Button variant="contained" color="success" endIcon={<InsertDriveFileIcon />}
+          href={process.env.REACT_APP_SHREEJI_GLOWROAD_EXCEL}
+          target="_blank">
           Excel
         </Button>
       </p>
@@ -101,7 +110,9 @@ function App() {
           target="_blank">
           Form
         </Button>
-        <Button variant="contained" color="success" endIcon={<InsertDriveFileIcon />}>
+        <Button variant="contained" color="success" endIcon={<InsertDriveFileIcon />}
+          href={process.env.REACT_APP_SHREEJI_DHANI_EXCEL}
+          target="_blank">
           Excel
         </Button>
       </p>
@@ -120,7 +131,9 @@ function App() {
           target="_blank">
           Form
         </Button>
-        <Button variant="contained" color="success" endIcon={<InsertDriveFileIcon />}>
+        <Button variant="contained" color="success" endIcon={<InsertDriveFileIcon />}
+          href={process.env.REACT_APP_SHREEJI_CITYMALL_EXCEL}
+          target="_blank">
           Excel
         </Button>
       </p>
@@ -141,7 +154,9 @@ function App() {
           target="_blank">
           Form
         </Button>
-        <Button variant="contained" color="success" endIcon={<InsertDriveFileIcon />}>
+        <Button variant="contained" color="success" endIcon={<InsertDriveFileIcon />}
+          href={process.env.REACT_APP_SWASTIK_GLOWROAD_EXCEL}
+          target="_blank">
           Excel
         </Button>
       </p>
